@@ -1,6 +1,11 @@
 # facepalm
 Proof of concept
 
+#### Quick install, always inspect code before running and use at your own risk.
+```
+curl https://raw.githubusercontent.com/oscarholst/facepalm/main/install.sh | sudo bash
+```
+
 Background: The optional bluetooth proximity lock in Windows is a good idea but not good enough.
 
 Idea: Run as a background process every minute or so. If no face is detected within 15 seconds of run. Activate built-in screenlock.
