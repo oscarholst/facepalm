@@ -9,8 +9,8 @@ set -Eeuo pipefail
 
 do_install() {
     echo "Hello world, executing installation script!"
-    curl -s https://raw.githubusercontent.com/oscarholst/facepalm/main/dist/facepalm -o /usr/bin/facepalm
-    chmod +x /usr/bin/facepalm
+    curl -s https://raw.githubusercontent.com/oscarholst/facepalm/main/facepalm.py -o /usr/share/pyshared/facepalm.py
+    chmod +x /usr/share/pyshared/facepalm.py
     curl -s https://raw.githubusercontent.com/oscarholst/facepalm/main/facepalm.service -o /etc/systemd/system/facepalm.service
     systemctl daemon-reload
     systemctl start facepalm
