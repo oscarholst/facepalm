@@ -16,5 +16,9 @@ Also a potential issue is obviously if the webcam used is already in use by anot
 
 But again, this was just a crazy idea.
 
+Why name it facepalm?
+Because the standard nerd will unfortunately but surely facepalm every time an unlocked and unsupervised PC is spotted at the office!
+Also, to trigger the screen lock with this poc, all you need to do is facepalm! ;-)
+
 #### License
 BSD 3-Clause License
