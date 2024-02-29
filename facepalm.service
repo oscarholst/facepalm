@@ -2,9 +2,8 @@
 Description=Facepalm
 
 [Service]
-ExecStart=/usr/bin/python3 /usr/share/pyshared/facepalm.py
+ExecStart=/usr/bin/facepalm
 Restart=always
-Environment=PYTHONUNBUFFERED=1
 
 [Install]
 WantedBy=multi-user.target
