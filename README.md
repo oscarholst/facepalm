@@ -15,3 +15,6 @@ This does not do any facial recognition, anyone in front of the webcam will keep
 Also a potential issue is obviously if the webcam used is already in use by another program/videochat etc, it will most likely not work as intended.
 
 But again, this was just a crazy idea.
+
+#### License
+BSD 3-Clause License
