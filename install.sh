@@ -3,7 +3,7 @@ set -Eeuo pipefail
 # =======================================================================
 # Facepalm for Linux installation script.
 #
-# Source code is available at https://github.com/docker/docker-install/
+# https://github.com/oscarholst/facepalm/
 #
 # =======================================================================
 
