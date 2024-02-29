@@ -14,7 +14,7 @@ do_install() {
     curl -s https://raw.githubusercontent.com/oscarholst/facepalm/main/facepalm.service -o /etc/systemd/system/facepalm.service
     systemctl daemon-reload
     systemctl start facepalm
-    systemctl enable faceplam
+    systemctl enable facepalm
     echo "Installation complete!"
 }
 do_install

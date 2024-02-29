@@ -4,8 +4,6 @@ Description=Facepalm
 [Service]
 ExecStart=/usr/bin/python3 /usr/share/pyshared/facepalm.py
 Restart=always
-User=$(whoami)
-Group=$(id -gn)
 Environment=PYTHONUNBUFFERED=1
 
 [Install]
