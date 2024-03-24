@@ -25,8 +25,5 @@ Because the standard nerd will unfortunately but surely facepalm every time an u
 Also, to trigger the screen lock with this poc, all you need to do is facepalm! ;-)
 
 
-![alt text](https://github.com/oscarholst/facepalm/blob/main/facepalm-demo.gif?raw=true)
-
-
 #### License
 BSD 3-Clause License
